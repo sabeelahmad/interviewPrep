@@ -20,7 +20,7 @@ bool removedup(char s[]){
             break;
     }
     if(i==1){
-        return (removedup(s+1)|false);    
+        return (removedup(s+1)|false);
     }else{
         for(int j=0;j<size-i;j++){
             s[j]=s[j+i];

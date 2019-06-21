@@ -6,7 +6,7 @@ int magic_grid(int ** input, int si, int sj, int ei, int ej) {
   if(si == ei && sj == ej) {
     // min health required is 1 not 0
     return 1;
-  } 
+  }
   // Avoid going out of grid
   if(si > ei || sj > ej) {
     return INT_MAX;
@@ -31,7 +31,7 @@ int main() {
   while(t--) {
     int m, n;
     cin >> m >> n;
-    int ** input = new int*[n];
+    int ** input = new int*[m];
     for(int i = 0; i < m; i++) {
       input[i] = new int[n];
     }

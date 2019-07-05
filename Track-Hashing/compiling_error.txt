@@ -1,0 +1,10 @@
+C:\Users\sabee\Desktop\codes\Track-Hashing\longestSubArrayWithSumK.cpp: In function 'int main()':
+C:\Users\sabee\Desktop\codes\Track-Hashing\longestSubArrayWithSumK.cpp:19:6: error: 'unordered_map' was not declared in this scope
+      unordered_map<int, int> umap;
+      ^
+C:\Users\sabee\Desktop\codes\Track-Hashing\longestSubArrayWithSumK.cpp:19:20: error: expected primary-expression before 'int'
+      unordered_map<int, int> umap;
+                    ^
+C:\Users\sabee\Desktop\codes\Track-Hashing\longestSubArrayWithSumK.cpp:20:6: error: 'umap' was not declared in this scope
+      umap.clear();
+      ^
